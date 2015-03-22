@@ -2,13 +2,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: URL("../Imagefolder/background.png");
+  color: rgba(255,255,255,1);
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 20px; }
 
 body {
-  margin: 80px 0; }
+  margin: 40px 0; }
 
 .heading:after {
   content: "";
@@ -53,7 +53,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: rgba(106,26,15,1);
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -72,7 +72,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: rgba(255,255,255,1); }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -80,7 +80,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(255,255,255,1);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -149,7 +149,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: rgba(106,26,15,0,5);
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -163,7 +163,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(106, 26, 15, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -220,7 +220,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(106, 26, 15, 0.7); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -311,72 +311,72 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 0px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: URL("../Imagefolder/2.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: URL("../Imagefolder/4.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background: URL("../Imagefolder/8.png"); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: URL("../Imagefolder/16.png"); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: URL("../Imagefolder/32.png"); }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: URL("../Imagefolder/64.png"); }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background: URL("../Imagefolder/128.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: URL("../Imagefolder/256.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #edc850;
+    background: URL("../Imagefolder/512.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f;
+    background: URL("../Imagefolder/1024.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
+    background: URL("../Imagefolder/2048.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
-    font-size: 30px; }
+    background: URL("../Imagefolder/4096.png");
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -488,7 +488,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: rgba(106,26,15,1);
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
