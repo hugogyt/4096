@@ -377,6 +377,12 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 0px; } }
+  .tile.tile-super .tile-inner {
+    background: URL("../Imagefolder/8192.png");
+    font-size:0px; }
+     @media screen and (max-width: 520px) {
+      .tile.tile-super .tile-inner {
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {

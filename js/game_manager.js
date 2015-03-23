@@ -261,7 +261,6 @@ GameManager.prototype.move = function (direction) {
 
   if (this.isGameTerminated()) return; // Don't do anything if the game's over
   if (this.grid.maxCellMove(direction)) {
-    var mes=confirm("你确定要移动最大值吗？");
     if(!mes) {
       return;
     }
